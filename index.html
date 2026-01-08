@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        #bd{
+            display: flex;
+            flex-direction: row;
+            gap: 19px;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 9px;
+            cursor: pointer;
+            border-radius: 13px;
+        }
+        button:hover{
+            scale: 1.08;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body >
+    <div class="parent" id="bd" style="background-color: black; color: white; width: 100vw; height: 100vh;">
+        <button id="pink">For Pink</button>
+        <button id="yellow">For Yellow</button>
+        <button id="white">For white</button>
+        <button id="black">For black</button>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
